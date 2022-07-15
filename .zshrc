@@ -21,8 +21,8 @@ export ZSH=$HOME/.oh-my-zsh
 
 # ZSH_THEME="spaceship"
 # ZSH_THEME="agnoster"
-ZSH_THEME="powerlevel10k/powerlevel10k"
-
+# ZSH_THEME="powerlevel10k/powerlevel10k"
+ZSH_THEME="archcraft"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME="spaceship"
@@ -190,6 +190,8 @@ alias eDEX="cd ~/Public/packages && ./eDEX-UI-Linux-x86_64.AppImage"
 
 alias M="ncmpcpp"
 alias MA="cd ~/.ncmpcpp/scripts/ && ./ncmpcpp-art"
+
+
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 # [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
